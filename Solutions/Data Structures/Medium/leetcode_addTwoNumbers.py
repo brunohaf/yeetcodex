@@ -33,7 +33,7 @@ Constraints:
 #         self.val = val
 #         self.next = next
 
-class Solution:
+class FirstSolution:
     def parseInt(self, headNode: Optional[ListNode]) -> int:
         vals = f"{headNode.val}"
         node = headNode.next
@@ -54,3 +54,17 @@ class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         _sum = self.parseInt(l1) + self.parseInt(l2)
         return self.fromInt(_sum)
+
+class SecondSolution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        carry = 0
+        pre_head = ListNode()
+        tail = pre_head
+        while l1 or l2 or carry:
+            _sum = (l1.val if l1 else 0) + (l2.val if l2 else 0) + carry
+            carry = _sum // 10
+            tail.next = ListNode(_sum % 10 if carry else _sum)
+            tail = tail.next
+            l1, l2 = l1.next if l1 else None, l2.next if l2 else None
+
+        return pre_head.next
