@@ -28,10 +28,14 @@ Constraints:
 
 """
 
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+from typing import Optional
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
 
 class FirstSolution:
     def parseInt(self, headNode: Optional[ListNode]) -> int:
@@ -54,6 +58,7 @@ class FirstSolution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         _sum = self.parseInt(l1) + self.parseInt(l2)
         return self.fromInt(_sum)
+
 
 class SecondSolution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
