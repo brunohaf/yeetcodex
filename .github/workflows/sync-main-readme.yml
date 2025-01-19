@@ -45,7 +45,9 @@ jobs:
           git commit -m "chore: sync README.md from main branch 🤖"
 
       - name: Push changes to solutions branch
+        if: success()
         run: |
           git push origin $SOLUTIONS_BRANCH_NAME
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
