@@ -32,4 +32,4 @@ A dump repo for resources and solutions regarding [leetcode](https://leetcode.co
 
 - [Dynamic Programming](https://youtu.be/oBt53YbR9Kk?si=oV5po9mpA2o4tmaG)
 
-## Solutions Available at https://github.com/brunohaf/leetcode/tree/solutions
+## Solutions Available at [brunohaf/leetcode@solutions](https://github.com/brunohaf/leetcode/tree/solutions)
