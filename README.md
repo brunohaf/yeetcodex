@@ -23,7 +23,7 @@ A dump repo for resources and solutions regarding [leetcode](https://leetcode.co
 - [CSES Problem Set (no solution)](https://cses.fi/problemset/)
 
 ### Good Reads:
-
+- 🔥[How to create test cases on LeetCode](https://support.leetcode.com/hc/en-us/articles/32442719377939-How-to-create-test-cases-on-LeetCode) 
 - [Top Coding Patterns for FAANG Coding Interviews](https://interviewnoodle.com/top-leetcode-patterns-for-faang-coding-interviews-bdbe8766534c)
 - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 - [Grokking LeetCode: A Smarter Way to Prepare for Coding Interviews](https://interviewnoodle.com/grokking-leetcode-a-smarter-way-to-prepare-for-coding-interviews-e86d5c9fe4e1)
