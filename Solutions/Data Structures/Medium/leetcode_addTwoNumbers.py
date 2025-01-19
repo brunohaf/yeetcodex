@@ -37,7 +37,9 @@ class ListNode:
         self.next = next
 
 
-class FirstSolution:
+class SolutionBruteForce:
+
+    # time: O(n), space: O(n)
     def parseInt(self, headNode: Optional[ListNode]) -> int:
         vals = f"{headNode.val}"
         node = headNode.next
@@ -46,6 +48,7 @@ class FirstSolution:
             node = node.next
         return int(vals)
 
+    # time: O(n), space: O(n)
     def fromInt(self, integer: int) -> Optional[ListNode]:
         nodes = [ListNode(int(c)) for c in str(integer)]
         head = nodes.pop()
@@ -55,12 +58,15 @@ class FirstSolution:
             node = node.next
         return head
 
+    # time: O(n), space: O(n)
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         _sum = self.parseInt(l1) + self.parseInt(l2)
         return self.fromInt(_sum)
 
 
-class SecondSolution:
+class Solution:
+
+    # time: O(n), space: O(1)
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         carry = 0
         pre_head = ListNode()
