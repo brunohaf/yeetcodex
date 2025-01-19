@@ -6,9 +6,10 @@ A dump repo for resources and solutions regarding [leetcode](https://leetcode.co
 
 ### Algorithms and Problem Solving:
 
+- 🔥[A Road Map for Mastering Coding Challenges](https://whimsical.com/codeforces-candidate-master-roadmap-by-love-babbar-CiXPPD3CnwoXPr2d8Ajx1h)
+- 🔥[GeeksForGeeks' Guide for Competitive Programming](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/?ref=outind)
 - 🔥[How to Effectively Practice CP + Problem Solving Guide](https://codeforces.com/blog/entry/116371): Codeforces' problem solving guide.
 - 🔥[Competitive Programming (pt-br)](https://github.com/UnBalloon/programacao-competitiva): Repo with algorithm walkthroughs in PT-BR.
-- 🔥[A Road Map for Mastering Coding Challenges](https://whimsical.com/codeforces-candidate-master-roadmap-by-love-babbar-CiXPPD3CnwoXPr2d8Ajx1h)
 - 🔥[The Algorithms](https://github.com/TheAlgorithms): Github repo with every algorithm in every programming language.
 - [Simple Guide to Competitive Programming](https://codeforces.com/blog/entry/103141): Codeforces' community guide.
 - [Leetcode Patterns](https://medium.com/leetcode-patterns): Medium Thread for Leetcode Patterns.
