@@ -1,0 +1,50 @@
+name: "README.md: main > solutions"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+  workflow_dispatch:
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+  
+env:
+  SOLUTIONS_BRANCH_NAME: "solutions"
+  
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Git
+        uses: actions/setup-git@v2
+        with:
+          user-name: 'github-actions'
+          user-email: 'github-actions@github.com'
+
+      - name: Fetch all branches
+        run: git fetch --all
+
+      - name: Checkout the solutions branch
+        run: git checkout $SOLUTIONS_BRANCH_NAME
+
+      - name: Merge README.md from main into solutions
+        run: |
+          git checkout main -- README.md
+          git add README.md
+          git commit -m "chore: sync README.md from main branch 🤖"
+
+      - name: Push changes to solutions branch
+        run: |
+          git push origin $SOLUTIONS_BRANCH_NAME
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
