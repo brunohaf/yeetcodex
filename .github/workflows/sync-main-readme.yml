@@ -16,6 +16,8 @@ defaults:
   
 env:
   SOLUTIONS_BRANCH_NAME: "solutions"
+  GIT_USER_NAME: "leetcode-bot"
+  GIT_USER_EMAIL: "github-actions@github.com"
   
 jobs:
   sync:
@@ -25,11 +27,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         
-      - name: Set up Git
-        uses: actions/setup-git@v2
-        with:
-          user-name: 'github-actions'
-          user-email: 'github-actions@github.com'
+      - name: Set up Git User
+        run: |
+          git config --local user.email '$GIT_USER_EMAIL'
+          git config --local user.name '$GIT_USER_NAME'
 
       - name: Fetch all branches
         run: git fetch --all
