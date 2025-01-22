@@ -6,9 +6,10 @@ A dump repo for resources and solutions regarding [leetcode](https://leetcode.co
 
 ### Algorithms and Problem Solving:
 
+- 🔥[A Road Map for Mastering Coding Challenges](https://whimsical.com/codeforces-candidate-master-roadmap-by-love-babbar-CiXPPD3CnwoXPr2d8Ajx1h)
+- 🔥[GeeksForGeeks' Guide for Competitive Programming](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/?ref=outind)
 - 🔥[How to Effectively Practice CP + Problem Solving Guide](https://codeforces.com/blog/entry/116371): Codeforces' problem solving guide.
 - 🔥[Competitive Programming (pt-br)](https://github.com/UnBalloon/programacao-competitiva): Repo with algorithm walkthroughs in PT-BR.
-- 🔥[A Road Map for Mastering Coding Challenges](https://whimsical.com/codeforces-candidate-master-roadmap-by-love-babbar-CiXPPD3CnwoXPr2d8Ajx1h)
 - 🔥[The Algorithms](https://github.com/TheAlgorithms): Github repo with every algorithm in every programming language.
 - [Simple Guide to Competitive Programming](https://codeforces.com/blog/entry/103141): Codeforces' community guide.
 - [Leetcode Patterns](https://medium.com/leetcode-patterns): Medium Thread for Leetcode Patterns.
@@ -23,7 +24,7 @@ A dump repo for resources and solutions regarding [leetcode](https://leetcode.co
 - [CSES Problem Set (no solution)](https://cses.fi/problemset/)
 
 ### Good Reads:
-
+- 🔥[How to create test cases on LeetCode](https://support.leetcode.com/hc/en-us/articles/32442719377939-How-to-create-test-cases-on-LeetCode) 
 - [Top Coding Patterns for FAANG Coding Interviews](https://interviewnoodle.com/top-leetcode-patterns-for-faang-coding-interviews-bdbe8766534c)
 - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 - [Grokking LeetCode: A Smarter Way to Prepare for Coding Interviews](https://interviewnoodle.com/grokking-leetcode-a-smarter-way-to-prepare-for-coding-interviews-e86d5c9fe4e1)
@@ -32,4 +33,4 @@ A dump repo for resources and solutions regarding [leetcode](https://leetcode.co
 
 - [Dynamic Programming](https://youtu.be/oBt53YbR9Kk?si=oV5po9mpA2o4tmaG)
 
-## Solutions Available at https://github.com/brunohaf/leetcode/tree/solutions
+## Solutions Available at [brunohaf/leetcode@solutions](https://github.com/brunohaf/leetcode/tree/solutions)
