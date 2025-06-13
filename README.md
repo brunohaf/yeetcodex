@@ -103,7 +103,7 @@ Thanks to the open-source and competitive programming communities for the countl
 
 ## License
 
-MIT
+[Apache 2.0](LICENSE)
 
 ---
 > GitHub [@brunohaf](https://github.com/brunohaf)
