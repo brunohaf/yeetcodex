@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version"></a>
-  <a href="#"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
+  <a href="#"><img src="https://img.shields.io/github/license/brunohaf/yeetcodex" alt="License"></a>
   <a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build"></a>
   <a href="#"><img src="https://img.shields.io/badge/chat-Gitter-ff69b4.svg" alt="Chat"></a>
 </p>
