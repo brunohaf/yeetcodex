@@ -1,3 +1,4 @@
 [submodule "solutions"]
 	path = solutions
 	url = git@github.com:brunohaf/trapezohedronlogn.git
+	branch = main
