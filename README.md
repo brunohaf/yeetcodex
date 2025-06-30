@@ -3,7 +3,7 @@
   <div style="width:312px; height:312px; border-radius:50%; overflow:hidden; border:4px solid #333; margin: 0 auto; display:flex; align-items:center; justify-content:center;">
     <img src="./src/resources/yeetcodex.png" alt="" style="width:40%; height:40%; object-fit:cover;">
   </div>
-  yeetcodex
+  The Yeetcodex
   <br>
 </h1> 
 
@@ -20,17 +20,15 @@
   <a href="#how-to-use">How To Use</a> •
   <a href="#resources">Resources</a> •
   <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
 
 ## Key Features
 
-* 📄 Curated learning paths and references for mastering DSA & problem solving
-* 🔗 Covers LeetCode, HackerRank, Beecrowd, Codeforces, and other OJs
-* 🧠 Great reads, guides, and roadmaps for sharpening your approach
-* 📚 Collections of categorized problems and topic-specific patterns
-* 🧰 Designed for clarity, pragmatism, and long-term learning
+* Curated learning paths and references for mastering DSA & problem solving
+* Great reads, guides, and roadmaps for sharpening your approach
+* Collections of categorized problems and topic-specific patterns
+* Designed for clarity, pragmatism, and long-term learning
 
 ## How To Use
 
@@ -48,7 +46,7 @@ cd yeetcodex
 > This repo includes a submodule for my personal solutions. To initialize submodules, run:
 
 ```bash
-git submodule update --init --recursive
+git submodule update --init --recursive solutions
 ```
 
 ## Resources
@@ -60,11 +58,14 @@ git submodule update --init --recursive
 * 🔥 [How to Effectively Practice CP + Problem Solving Guide](https://codeforces.com/blog/entry/116371)
 * 🔥 [Competitive Programming (pt-br)](https://github.com/UnBalloon/programacao-competitiva)
 * 🔥 [The Algorithms](https://github.com/TheAlgorithms)
+* 🔥 [Visualising data structures and algorithms through animation](https://visualgo.net/en)
+* 🔥 [Public Google Drive with DSA Books](https://drive.google.com/drive/folders/1rVwGTcLf67jB9iTDgqXF1EoBHnkJH7Lx)
 * [Simple Guide to Competitive Programming](https://codeforces.com/blog/entry/103141)
 * [Leetcode Patterns (Medium)](https://medium.com/leetcode-patterns)
 * [Algorithms for Competitive Programming](https://cp-algorithms.com/)
 * [CodeChef](https://www.codechef.com/)
 * [CSES Handbook (PDF)](https://cses.fi/book/book.pdf)
+
 
 ### 📌 Problem Sets
 
@@ -78,6 +79,7 @@ git submodule update --init --recursive
 * [Top Coding Patterns for FAANG Interviews](https://interviewnoodle.com/top-leetcode-patterns-for-faang-coding-interviews-bdbe8766534c)
 * [14 Patterns to Ace Any Coding Interview](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 * [Grokking LeetCode](https://interviewnoodle.com/grokking-leetcode-a-smarter-way-to-prepare-for-coding-interviews-e86d5c9fe4e1)
+* [DSA Templates in Python](https://deeply-apparel-79f.notion.site/DSA-CP-Templates-in-Python-8da3386924d4417d94a1eb4b2bc58779)
 
 ### 🎥 YouTube
 
@@ -89,7 +91,7 @@ git submodule update --init --recursive
 
 Solutions are maintained separately in the submodule:
 
-🔐 [The Shinning Tapezohedr-o(nlogn)](https://github.com/brunohaf/tapezohedronlogn) – Personal, Lovecraftian-themed leetcode solution vault (submodule).
+* The Shinning [Tapezohedron(logn)](https://github.com/brunohaf/tapezohedronlogn) – Lovecraftian-themed leetcode solution vault (submodule).
 
 
 ---
@@ -97,9 +99,6 @@ Solutions are maintained separately in the submodule:
 ## Credits
 
 Thanks to the open-source and competitive programming communities for the countless guides, ladders, and problem sets that make this ecosystem thrive.
-
-## Related
-
 
 ## License
 
