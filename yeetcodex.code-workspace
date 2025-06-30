@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "../yeetcodex"
 		}
 	],
 	"settings": {},
@@ -12,11 +12,11 @@
 					"--encrypt",
 					"${file}"
 				],
-				"command": "${workspaceFolder}/src/scripts/post-mortem.bash",
-				"label": "Encrypt yeetcodex post-mortem notes",
+				"command": "${workspaceFolder}/solutions/src/scripts/post-mortem.bash",
+				"label": "Encrypt Notes in This File",
 				"options": {
 					"env": {
-						"GPG_KEY": "<key-signature-here>"
+						"GPG_KEY": "<gpg-key-signature-here>"
 					}
 				},
 				"presentation": {
@@ -31,11 +31,11 @@
 					"--decrypt",
 					"${file}"
 				],
-				"command": "${workspaceFolder}/src/scripts/post-mortem.bash",
-				"label": "Decrypt yeetcodex post-mortem notes",
+				"command": "${workspaceFolder}/solutions/src/scripts/post-mortem.bash",
+				"label": "Decrypt Notes in This File",
 				"options": {
 					"env": {
-						"GPG_KEY": "<key-signature-here>"
+						"GPG_KEY": "<gpg-key-signature-here>"
 					}
 				},
 				"presentation": {
