@@ -4,14 +4,13 @@
 			"path": "../yeetcodex"
 		}
 	],
-	"settings": {},
+  "settings": {
+    "python.autoComplete.extraPaths": ["./solutions"]
+  },
 	"tasks": {
 		"tasks": [
 			{
-				"args": [
-					"--encrypt",
-					"${file}"
-				],
+				"args": ["--encrypt", "${file}"],
 				"command": "${workspaceFolder}/solutions/src/scripts/post-mortem.bash",
 				"label": "Encrypt Notes in This File",
 				"options": {
@@ -27,10 +26,7 @@
 				"type": "shell"
 			},
 			{
-				"args": [
-					"--decrypt",
-					"${file}"
-				],
+				"args": ["--decrypt", "${file}"],
 				"command": "${workspaceFolder}/solutions/src/scripts/post-mortem.bash",
 				"label": "Decrypt Notes in This File",
 				"options": {
